@@ -1,0 +1,52 @@
+.divisao5{
+    background-color: black;
+    width: 85%;
+    height: 1px;
+}
+.container-j{
+    margin-top: 100px;
+    width: 100%;
+    text-align: left;
+    margin-left: 100px;
+}
+.descricao{
+    width: 85%;
+    margin-top: 25px;
+    
+}
+.titulo-descricao h1, .data h1, .linguagem h1, .link h1, .topicos h1{
+    font-size: 24px;
+    color: rgb(0, 195, 255);
+}
+.texto h2{
+    font-size: 16px;
+}
+.icon {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.icon h2{
+    font-size: 16px;
+}
+
+@media (min-width:601px) and (max-width: 800px) {
+    header{
+        width: 100%;
+    }
+    .container-j{
+        
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 600px){
+   
+
+.container-j{
+    
+    margin-left: 0;
+}
+
+}
